@@ -1,0 +1,386 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.head {
+  background-image: url(../imgs/hero.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 48%;
+  background-size: cover;
+}
+.head .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 552px;
+}
+.head a {
+  color: black;
+}
+.topmedia {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 320px;
+}
+.topmedia .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+.topmedia ul {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
+.topmedia a {
+  color: black;
+  letter-spacing: 2px;
+}
+.about-us {
+  display: flex;
+  justify-content: center;
+}
+.what {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+  width: 700px;
+}
+.what h3 {
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.what p {
+  color: #848789;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 1.8em;
+}
+.work .one {
+  display: flex;
+  height: 632px;
+}
+.work .one .left {
+  flex-basis: 70%;
+}
+.work .one .left {
+  position: relative;
+}
+.work .one .left img:last-child {
+  width: 100%;
+  height: 100%;
+}
+.work .busi {
+  position: absolute;
+  top: 40%;
+  transition: 1s;
+}
+.one .left .busi {
+  position: absolute;
+  left: -40%;
+}
+.two .right .busi {
+  position: absolute;
+  right: -40%;
+}
+.three .box .busi {
+  position: absolute;
+  left: -60%;
+}
+.work .one .right {
+  flex-basis: 35%;
+}
+.work .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 70px;
+  height: 410px;
+}
+.work h3 {
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.work p {
+  font-size: 14px;
+  color: #848789;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 1.8em;
+}
+.work .one .right > img {
+  width: 100%;
+  height: 222px;
+}
+.work .two {
+  display: flex;
+  height: 632px;
+}
+.work .two .left {
+  flex-basis: 35%;
+}
+.work .two .left > img {
+  width: 100%;
+  height: 222px;
+}
+.work .two .right {
+  position: relative;
+  flex-basis: 70%;
+}
+.work .two .right img:last-child {
+  width: 100%;
+  height: 100%;
+}
+
+.work .three {
+  display: flex;
+  height: 632px;
+}
+.work .three .box {
+  position: relative;
+  width: 33.3%;
+  height: 100%;
+}
+.work .three .box > img:last-child {
+  width: 100%;
+  height: 100%;
+}
+.twitter {
+  background-color: #f7f7f7;
+  position: relative;
+  padding-bottom: 100px;
+}
+.twitter .active {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.twitter .active a {
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.twitter .active a span {
+  color: #848789;
+  font-weight: 300;
+}
+.twitter .active p {
+  color: #848789;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+}
+.twitter .tem {
+  display: none;
+}
+.twitter .tavigech {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 130px;
+  width: 100%;
+}
+.twitter .tavigech .two {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  background-color: #f7f7f7;
+  box-shadow: inset 0 0 3px #a9afb3;
+}
+.twitter .tavigech .one {
+  background-color: #a9afb3;
+}
+.shop .boxs {
+  display: flex;
+  width: 100%;
+}
+
+.shop .left {
+  width: 33.3%;
+}
+.shop .left .top {
+  display: flex;
+  width: 100%;
+}
+.shop .boxs .group {
+  position: relative;
+}
+.shop .boxs .group:hover .hover {
+  display: flex;
+}
+.shop .group .hover {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(100, 194, 158, 0.8);
+  color: #fff;
+  font-weight: 600;
+  font-size: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.shop .group .hover i {
+  font-size: 29px;
+}
+.shop .left .top img {
+  width: 100%;
+  height: 100%;
+}
+.shop .left .group > img {
+  width: 100%;
+}
+.shop .center {
+  display: flex;
+  width: 33.3%;
+}
+.shop .center img {
+  width: 100%;
+  height: 100%;
+}
+.shop .right {
+  width: 33.3%;
+}
+.shop .right .group > img {
+  width: 100%;
+  height: 100%;
+}
+.shop .right .box {
+  display: flex;
+}
+.shop .right .box img {
+  width: 100%;
+  height: 100%;
+}
+.shop .bottun {
+  height: 130px;
+  background-color: #282f35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop .bottun a {
+  color: white;
+  border: solid 1px;
+  padding: 15px 32px;
+  letter-spacing: 2px;
+}
+.contact .hed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0px;
+  gap: 20px;
+}
+.contact .hed img {
+  font-size: 24px;
+}
+.contact .hed p {
+  color: #848789;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 300;
+}
+.contact form input:first-child {
+  border: solid 1px #d3d7d9;
+  width: 311px;
+  color: #929292;
+  font-style: italic;
+  letter-spacing: 1px;
+  height: 70px;
+}
+.contact form input:last-child {
+  background-color: #64c29e;
+  color: #fff;
+  border: solid 1px #64c29e;
+  font-weight: 300;
+  height: 70px;
+  width: 120px;
+}
+.contact .fotter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 92px 20px;
+}
+.contact .fotter .left {
+  font-size: 15px;
+  color: #848789;
+}
+.contact .fotter .left span {
+  font-weight: 600;
+}
+.contact .fotter .left a {
+  color: #282f35;
+}
+.contact .fotter .center img {
+  margin: 10px;
+}
+.contact .fotter .right {
+  color: #848789;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 1.8em;
+  font-size: 13px;
+}
+.contact .fotter .right p {
+  margin: 0px;
+  display: flex;
+}
+.contact .fotter .right p a {
+  margin-left: 5px;
+}
+.contact .fotter .right p:last-child a {
+  color: #282f35;
+}
